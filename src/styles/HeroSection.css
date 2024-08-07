@@ -1,0 +1,133 @@
+.hero-section {
+  padding-block-start: 102px;
+  padding-block-end: 0px;
+  gap: 0px 0px;
+  margin: 0 77px;
+  width: 100%;
+  max-width: min(100%, 1200px);
+  display: flex;
+  margin: 0 auto;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  height: 100%;
+}
+
+.container {
+}
+
+.title {
+  /* height: 336px; */
+  width: 600px;
+}
+
+.title h1 {
+    font-family: Mulish, sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 168px;
+    text-decoration: none solid rgb(29, 31, 69);
+    word-spacing: 0px;
+    height: 336px;
+width: 605px;
+display: block;
+transform: none;
+transition: all;
+box-sizing: border-box;
+word-wrap: normal;
+}
+
+.description {
+  height: 80px;
+  width: 485px;
+  margin: 0 0 16px 0;
+}
+
+.description p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.header-text {
+  color: #6369d1;
+  margin: 0 0 20px 0;
+}
+
+.button-group {
+  display: flex;
+/* justify-content: center; */
+align-items: center;
+}
+.btn {
+  font-size: 15px;  gap: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  text-transform: capitalize;
+  word-spacing: 0px;
+  background-color: #5258ca;
+  background-position: 0% 0%;
+  color: #ffffff;
+  width: 148.672px;
+  border: 2px solid #6369d1;
+  padding: 14px 30px 14px 30px;
+  cursor: pointer;
+  height: 47px;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.divL{
+    font-family: Montserrat, sans-serif;
+font-size: 16px;
+line-height: 26.4px;
+text-decoration: none solid rgb(61, 61, 78);
+word-spacing: 0px;
+height: 26.3906px;
+width: 98.9531px;
+transform: none;
+transition: all;
+/* outline: rgb(255, 0, 0) dashed 1px; */
+box-sizing: border-box;
+word-wrap: break-word;
+display: flex;justify-content: center;align-items: center;
+}
+.learn{
+    font-family: Mulish, sans-serif;
+font-size: 15px;
+font-weight: 700;
+line-height: 15px;
+text-decoration: none solid rgb(99, 105, 209);
+text-align: center;
+text-transform: capitalize;
+word-spacing: 0px;
+color:  #6369D1;
+height: 15px;
+transform: none;
+transition: all;
+
+box-sizing: border-box;
+word-wrap: break-word;
+width: 84.8281px;
+min-height: auto;
+min-width: auto;
+}
+
+.featured-in {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 26.4px;
+    text-decoration: none solid rgb(61, 61, 78);
+    height: 139px;
+    width: 600px;
+    margin: 124px 0 0 0;
+}
+
+.featured-in img {
+  margin-right: 10px;
+}
+.logo{
+    display: flex;
+}
