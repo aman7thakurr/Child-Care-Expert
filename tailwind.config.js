@@ -1,14 +1,35 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/page/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/home/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  
   theme: {
     extend: {
       width: {
         'custom-width': '1082.44px',
+      },
+      maxWidth: {
+        'custom': '1200px',
+      }, 
+      margin: {
+        '312px': '312px', 
+      }, 
+      height: {
+        '457.5': '457px', 
+      },
+      width: {
+        '1200': '1200px',
+      },
+      padding: {
+        '80': '80px',
+      },
+      minHeight: {
+        'auto': 'auto',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

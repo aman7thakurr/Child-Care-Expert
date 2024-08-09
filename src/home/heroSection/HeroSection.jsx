@@ -2,8 +2,9 @@ import React from 'react';
 import '../../styles/HeroSection.css'; 
 function HeroSection() {
   return (
+    <section>
     <div className='hero-section'>
-      <div className='container'>
+      <div className='container m-[-10px] mx-[-5px] pt-0 pr-0 pb-[12px] pl-0'>
         <div className='title'>
           <h6 className='header-text text-base tracking-tighter uppercase'>
             Welcome to Boocah
@@ -32,6 +33,7 @@ function HeroSection() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 
